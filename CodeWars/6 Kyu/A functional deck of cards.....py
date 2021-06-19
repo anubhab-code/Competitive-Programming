@@ -1,0 +1,1 @@
+def deck_of_cards(): return [ f"{d} of {s}" for d in ['ace','two','three','four','five','six','seven','eight','nine','ten','jack','queen','king'] for s in ['hearts','spades','diamonds','clubs'] ]
