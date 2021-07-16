@@ -1,0 +1,9 @@
+n1,n2,n3=map(int,input().split())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+min_l=[min(a),min(b),min(c)]
+s=sum(a)+sum(b)+sum(c)
+min_l=sorted(min_l)
+x=sum(min_l[0:2])
+print(s-2*min(sum(a),sum(b),sum(c),x))
